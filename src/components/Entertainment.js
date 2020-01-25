@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import axios from 'axios'
+import axios from 'axios';
 
 function Entertainment() {
  const [articles, setarticles] = useState([]);
@@ -37,7 +37,7 @@ function Entertainment() {
        </div>
        <div className="section-description">
         <p>
-         {article.description} <Link to="">Read More</Link>
+         {article.description} <Link to={`/en/${index}`}>Read More</Link>
         </p>
         <hr />
        </div>

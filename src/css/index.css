@@ -32,12 +32,19 @@
 
 .url-img {
   width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .headlines {
   margin: 20px auto;
   width: 95%;
   margin: 0 auto;
+}
+
+hr {
+  padding: 0;
+  margin: 0;
 }
 
 .section {
@@ -49,6 +56,7 @@
 .section-description {
   padding: 0;
   margin: 0;
+  text-align: justify;
 }
 
 .header-headlines {
@@ -108,10 +116,16 @@
 
 .search .link:hover {
   background: black;
+  cursor: pointer;
 }
 
 .details-container {
   margin-top: 100px;
+}
+
+.details-title {
+  font-size: 30px;
+  font-weight: bold;
 }
 
 @media only screen and (min-width: 722px) {

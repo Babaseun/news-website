@@ -13,7 +13,7 @@ function Usa() {
 
  return (
   <div className="headlines">
-   <h1 className="title header-headlines">Usa News</h1>
+   <h1 className="title header-headlines">US politics</h1>
 
    <div>
     <div className="section-container">
@@ -32,7 +32,7 @@ function Usa() {
        </div>
        <div className="section-description">
         <p>
-         {article.description} <Link to="">Read More</Link>
+         {article.description} <Link to={`/us/${index}`}>Read More</Link>
         </p>
         <hr />
        </div>
