@@ -1,0 +1,21 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+.header {
+ height: 70px;
+ background: rebeccapurple;
+ color: white;
+ position: fixed;
+ top: 0;
+ width: 100%;
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+ font-size: 30px;
+}
+
+@import './scss/_headlines.scss';
+@import './scss/_search.scss';
+@import './scss/_details.scss';

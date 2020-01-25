@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header {
+  height: 70px;
+  background: rebeccapurple;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 30px;
+}
+
+.title {
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.url-img {
+  width: 100%;
+}
+
+.headlines {
+  margin: 20px auto;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.section {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.section-description {
+  padding: 0;
+  margin: 0;
+}
+
+.header-headlines {
+  margin-top: 100px;
+}
+
+@media only screen and (min-width: 800px) {
+  .url-img {
+    height: 300px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .section-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+  }
+  .header-headlines {
+    background: gainsboro;
+    height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 20%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.search {
+  background: grey;
+  margin-top: 70px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.search .link {
+  width: 100%;
+  text-align: center;
+}
+
+.search .link:hover {
+  background: black;
+}
+
+.details-container {
+  margin-top: 100px;
+}
+
+@media only screen and (min-width: 722px) {
+  .details-content {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,17 @@
+.search {
+ background: grey;
+ margin-top: 70px;
+ color: white;
+ display: flex;
+ justify-content: space-evenly;
+ position: fixed;
+ top: 0;
+ width: 100%;
+ .link {
+  width: 100%;
+  text-align: center;
+ }
+ .link:hover {
+  background: black;
+ }
+}

@@ -1,0 +1,9 @@
+.details-container {
+ margin-top: 100px;
+}
+@media only screen and(min-width:722px) {
+ .details-content {
+  width: 60%;
+  margin: 0 auto;
+ }
+}
