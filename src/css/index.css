@@ -51,6 +51,7 @@ hr {
   width: 100%;
   padding: 0;
   margin: 0;
+  max-height: 500px;
 }
 
 .section-description {
@@ -66,8 +67,7 @@ hr {
 @media only screen and (min-width: 800px) {
   .url-img {
     width: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
+    max-height: 300px;
   }
   .section-container {
     display: -ms-grid;
