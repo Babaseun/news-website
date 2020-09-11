@@ -65,7 +65,7 @@ hr {
 
 @media only screen and (min-width: 800px) {
   .url-img {
-    height: 300px;
+    width: 100%;
     -o-object-fit: cover;
        object-fit: cover;
   }

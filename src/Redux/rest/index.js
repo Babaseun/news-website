@@ -1,20 +1,20 @@
 import {
- beginProcess,
- processRequestFailedNG,
- processRequestsNG
-} from '../actions/index';
-import axios from 'axios';
+  beginProcess,
+  processRequestFailedNG,
+  processRequestsNG,
+} from "../actions/index";
+import axios from "axios";
 
 export const fetchNewsNG = () => (dispatch) => {
- dispatch(beginProcess());
+  dispatch(beginProcess());
 
- const API_KEY = '5bfaf80040e24d87b38a79a85168ecf7';
- const API = `https://newsapi.org/v2/top-headlines?country=ng&apiKey=${API_KEY}`;
+  const API_KEY = "e6221e72e0ef4e0cb0b75aba9dbf4426";
+  const API = `https://newsapi.org/v2/top-headlines?country=ng&apiKey=${API_KEY}`;
 
- axios
-  .get(API)
-  .then((response) => {
-   dispatch(processRequestsNG(response.data.articles));
-  })
-  .catch((err) => dispatch(processRequestFailedNG(err)));
+  axios
+    .get(API)
+    .then((response) => {
+      dispatch(processRequestsNG(response.data.articles));
+    })
+    .catch((err) => dispatch(processRequestFailedNG(err)));
 };
