@@ -1,22 +1,20 @@
 {
   "files": {
-    "main.css": "/Babaseun.github.io/news-website/static/css/main.06cad105.chunk.css",
-    "main.js": "/Babaseun.github.io/news-website/static/js/main.d6596cfd.chunk.js",
-    "main.js.map": "/Babaseun.github.io/news-website/static/js/main.d6596cfd.chunk.js.map",
-    "runtime-main.js": "/Babaseun.github.io/news-website/static/js/runtime-main.b112fb13.js",
-    "runtime-main.js.map": "/Babaseun.github.io/news-website/static/js/runtime-main.b112fb13.js.map",
-    "static/js/2.2f38ccca.chunk.js": "/Babaseun.github.io/news-website/static/js/2.2f38ccca.chunk.js",
-    "static/js/2.2f38ccca.chunk.js.map": "/Babaseun.github.io/news-website/static/js/2.2f38ccca.chunk.js.map",
+    "main.css": "/Babaseun.github.io/news-website/static/css/main.7d0c7784.chunk.css",
+    "main.js": "/Babaseun.github.io/news-website/static/js/main.f22484c3.chunk.js",
+    "main.js.map": "/Babaseun.github.io/news-website/static/js/main.f22484c3.chunk.js.map",
+    "runtime-main.js": "/Babaseun.github.io/news-website/static/js/runtime-main.c2d2472a.js",
+    "runtime-main.js.map": "/Babaseun.github.io/news-website/static/js/runtime-main.c2d2472a.js.map",
+    "static/js/2.853041fc.chunk.js": "/Babaseun.github.io/news-website/static/js/2.853041fc.chunk.js",
+    "static/js/2.853041fc.chunk.js.map": "/Babaseun.github.io/news-website/static/js/2.853041fc.chunk.js.map",
     "index.html": "/Babaseun.github.io/news-website/index.html",
-    "precache-manifest.ed8400e4ecefdd90b381e72c4d63f3a5.js": "/Babaseun.github.io/news-website/precache-manifest.ed8400e4ecefdd90b381e72c4d63f3a5.js",
-    "service-worker.js": "/Babaseun.github.io/news-website/service-worker.js",
-    "static/css/main.06cad105.chunk.css.map": "/Babaseun.github.io/news-website/static/css/main.06cad105.chunk.css.map",
-    "static/js/2.2f38ccca.chunk.js.LICENSE.txt": "/Babaseun.github.io/news-website/static/js/2.2f38ccca.chunk.js.LICENSE.txt"
+    "static/css/main.7d0c7784.chunk.css.map": "/Babaseun.github.io/news-website/static/css/main.7d0c7784.chunk.css.map",
+    "static/js/2.853041fc.chunk.js.LICENSE.txt": "/Babaseun.github.io/news-website/static/js/2.853041fc.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.b112fb13.js",
-    "static/js/2.2f38ccca.chunk.js",
-    "static/css/main.06cad105.chunk.css",
-    "static/js/main.d6596cfd.chunk.js"
+    "static/js/runtime-main.c2d2472a.js",
+    "static/js/2.853041fc.chunk.js",
+    "static/css/main.7d0c7784.chunk.css",
+    "static/js/main.f22484c3.chunk.js"
   ]
 }
